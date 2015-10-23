@@ -1,0 +1,34 @@
+body {
+  background: white;
+  color: black;
+}
+
+a{
+  color: Black;
+}
+
+a:hover{
+  color: LightSeaGreen ;
+  background: white;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 40pt;
+}
+
+.indent {
+  margin-left: 10px;
+}
+
+.gap_below {
+  margin-bottom: 25px;
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
