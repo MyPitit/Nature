@@ -1,0 +1,103 @@
+<html>
+
+  <head>
+      <title>Dream</title>
+
+      <link rel="stylesheet"
+		type="text/css"
+		href="style.css" 
+		/>
+
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Style todoindex.html  -->
+  <style>
+	  	h1 {
+	  font-family: Times New Roman;
+	  font-style: oblique;
+	}
+
+	body {
+	  background: #FFF5EE; 
+	}
+
+	ul { 
+	  list-style: none; 
+	  padding: 0; 
+	  margin: 0; 
+	  width: 300px;
+	}
+
+	li { 
+	  border: 1px solid #ccc; 
+	  background: #FFFAFA; 
+	  padding: 5px 10px; 
+	  color: #000; 
+	}
+
+	li span { 
+	  padding-left: 10px;
+	  cursor: default; 
+	  
+	}
+
+	.checked { 
+	  text-decoration: line-through; 
+	  font-weight: bold; 
+	  color: #c00;
+	}
+
+  </style>
+
+   </head>
+
+
+		<!-- Navigation bar  -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="about.html">THIS IS ME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="index.html">DEFINE NATURE</a></li>
+        <li><a href="todoIndex.html">TYPE YOUR DREAMS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<body>
+
+   <div class="container">
+	<div class="jumbotron">
+    
+  <h2>Type here all your dreams...</h2>
+ 
+     <p><input type="text" id="inItemText"/> </p>
+
+     <ul id="todoList"> </ul>
+
+   
+	<script src="todoList.js"></script>
+
+	
+	</div>
+	</div>
+
+
+  
+   </body>
+    
+</html>
